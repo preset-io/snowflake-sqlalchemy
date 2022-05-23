@@ -35,7 +35,7 @@ setup(
 
     install_requires=[
         'sqlalchemy<2.0.0',
-        'snowflake-connector-python@git+https://github.com/preset-io/snowflake-connector-python@1.9.0-loosened-dependencies' ,
+        'snowflake-connector-python@git+https://github.com/preset-io/snowflake-connector-python/src/snowflake/connector@v1.9.0-loosened-dependences-with-setup-fix' ,
     ],
     namespace_packages=[
         'snowflake'
